@@ -5,10 +5,7 @@
 </head>
 <body>
     <header>
-        <img src="img/bone.png" width="50px">
-
-        <button id="loinn">Zaloguj się</button>
-        <button id="signin">Zarejestruj się</button>
+        <?php showHeader() ?>
 
     </header>
     <nav>
