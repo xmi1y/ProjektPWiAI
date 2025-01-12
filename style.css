@@ -22,7 +22,7 @@ nav{
 }
 .nav li{
     display: inline;
-    float:left;;
+    float:left;
 }
 .nav a{
     display:block;
@@ -83,6 +83,56 @@ header div{
     margin:5px;
     border-radius: 8px;
     font-size:1.5em;
+    
+}
+@media screen and (min-width: 600px){
+    .smallScreenbtns{
+        display:none; 
+ }
+}
+/*Header for smaller screens*/
+@media screen and (max-width: 600px){
+    .headerbtns{
+        display:none;
+    }
+    .smallScreenbtns{
+        display:flex;
+        flex-wrap:wrap;
+        width:100%;
+        justify-content: flex-end;
+    }
+    .ssbimg{
+        width:100%;
+    }
+    .ssbContent{
+        display:none;
+    }
+    .smallScreenbtns:hover .ssbContent{
+        display:block;
+    }
+    .ssbContent button{
+        width:100%;
+    }
+    #arrow{
+        width:30px;
+        margin-left:auto;
+    }
+    #loginMini{
+        background-color:rgb(4, 189, 4);
+        padding:5px;
+        margin:5px;
+        border-radius: 8px;
+        font-size:1.5em;
+    
+    }
+    #signinMini{
+        background-color:rgba(136, 255, 136, 0.848);
+        padding:5px;
+        margin:5px;
+        border-radius: 8px;
+        font-size:1.5em;
+        
+    }
     
 }
 /*main styling*/

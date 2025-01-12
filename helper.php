@@ -26,6 +26,13 @@ function showHeader(){
 
         <div class="headerbtns"><button id="login" >Zaloguj się</button>
         <button id="signin" >Zarejestruj się</button></div>
+        <div class="smallScreenbtns">
+            <img src="img/down.png" id="arrow">
+            <div class="ssbContent">
+                <button id="loginMini" >Zaloguj się</button>
+                <button id="signinMini" >Zarejestruj się</button>
+            </div>
+        </div>
     ';
 
 }
@@ -33,7 +40,7 @@ function headINFO($title){
     echo '
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <title>'.$title.'</title>
     ';
