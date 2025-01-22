@@ -1,0 +1,92 @@
+*{
+    box-sizing:border-box
+}
+body{
+    margin:0 auto;
+
+}
+/*Nav styling*/
+nav{
+    background-color: white;
+  position: sticky;
+  top: 0;
+}
+.nav {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    border: solid 0.1em black;
+    
+    
+}
+.nav li{
+    display: inline;
+    float:left;;
+}
+.nav a{
+    display:block;
+    text-decoration:none;
+    text-align:center;
+    font-weight: 500;
+    padding:1em;
+    color:black;
+}
+.active{
+    background-color:grey ;
+    border-bottom:none;
+}
+.nav a:hover{
+    background-color: aliceblue;
+}
+
+/*Header styling*/
+header{
+    border-top:solid 0.1em black;
+    border-left:solid 0.1em black; 
+    border-right:solid 0.1em black;
+    display:flex;
+    align-items:center;
+}
+header div{
+    margin-right:3%;
+    margin-left:2%;
+}
+#imgcont{
+    width:15%;
+}
+#logo{
+    width:60px;
+    
+}
+#logo:hover{
+    transform: scale(1.1); 
+    transition: transform 0.3s ease; 
+}
+.headerbtns{
+    width:100%;
+    display:flex;
+    justify-content: flex-end;
+    margin:10px;
+}
+#login{
+    background-color:rgb(4, 189, 4);
+    padding:5px;
+    margin:5px;
+    border-radius: 8px;
+    font-size:1.5em;
+
+}
+#signin{
+    background-color:rgba(136, 255, 136, 0.848);
+    padding:5px;
+    margin:5px;
+    border-radius: 8px;
+    font-size:1.5em;
+    
+}
+/*main styling*/
+main{
+    background-color: gray;
+    height:100vh;
+}
